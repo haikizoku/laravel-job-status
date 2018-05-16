@@ -1,11 +1,15 @@
 {
-    "name": "imtigger/laravel-job-status",
+    "name": "Haikizoku/laravel-job-status-email",
     "description": "Laravel Job Status",
     "license": "MIT",
     "authors": [
         {
             "name": "Tiger",
             "email": "tiger@tiger-workshop.com"
+        },
+        {
+            "name": "greg",
+            "email": "gnorvene@gmail.com"
         }
     ],
     "keywords": [

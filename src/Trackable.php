@@ -34,6 +34,21 @@ trait Trackable
         $this->update(['input' => $value]);
     }
 
+    protected  function setProjectId($value)
+    {
+        $this->update(['project_id']);
+    }
+
+    protected  function  setTitle($value)
+    {
+        $this->update(['title']);
+    }
+
+    protected function setEmail($value)
+    {
+        $this->update(['email']);
+    }
+
     protected function setOutput(array $value)
     {
         $this->update(['output' => $value]);

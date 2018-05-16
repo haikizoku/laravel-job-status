@@ -17,6 +17,9 @@ class CreateJobStatusesTable extends Migration
             $table->string('job_id')->index()->nullable();
             $table->string('type')->index();
             $table->string('queue')->index()->nullable();
+            $table->string('project_id')->index()->nullable();
+            $table->string('title')->index()->nullable();
+            $table->string('email')->index()->nullable();
             $table->integer('attempts')->default(0);
             $table->integer('progress_now')->default(0);
             $table->integer('progress_max')->default(0);
